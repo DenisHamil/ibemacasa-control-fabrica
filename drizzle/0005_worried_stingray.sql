@@ -1,0 +1,1 @@
+ALTER TABLE `purchases` ADD `entry_number` text DEFAULT '' NOT NULL;

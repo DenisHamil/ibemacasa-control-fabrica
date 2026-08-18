@@ -15,6 +15,48 @@
       "when": 1786977724363,
       "tag": "0001_real_stellaris",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1787052586592,
+      "tag": "0002_strong_naoko",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1787054704841,
+      "tag": "0003_abnormal_doctor_spectrum",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1787064699549,
+      "tag": "0004_marvelous_wasp",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1787066125232,
+      "tag": "0005_worried_stingray",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1787076292378,
+      "tag": "0006_bright_shiver_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1787079304383,
+      "tag": "0007_soft_warbound",
+      "breakpoints": true
     }
   ]
 }

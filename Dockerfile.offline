@@ -1,0 +1,5 @@
+# Respaldo para actualizar la aplicación cuando Docker Hub no responde.
+# Reutiliza la última imagen completa y reemplaza solamente el build verificado.
+FROM ibema-casa-ibema-casa-app:latest
+WORKDIR /app
+COPY dist ./dist

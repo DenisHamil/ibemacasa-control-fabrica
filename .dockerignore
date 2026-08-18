@@ -1,0 +1,13 @@
+.git
+.vinext
+.wrangler
+dist
+!dist/
+!dist/**
+node_modules
+work
+outputs
+coverage
+*.log
+*.tgz
+.env*

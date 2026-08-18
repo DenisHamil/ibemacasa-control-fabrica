@@ -1,0 +1,21 @@
+name: ibema-casa
+
+services:
+  ibema-casa-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ibema-casa-app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ibema_casa_data:/app/.wrangler
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      TZ: America/La_Paz
+
+volumes:
+  ibema_casa_data:
+    name: ibema_casa_data
